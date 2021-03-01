@@ -82,7 +82,7 @@ router.delete('/:id', (req, res) => {
 // EDIT
 router.get('/:id/edit', (req, res) => {
     Beer.findById(req.params.id, (error, foundBeer) => {
-        res.render('edit.ejs', { product: foundBeer })
+        res.render('edit.ejs', { beer: foundBeer })
     });
 });
 

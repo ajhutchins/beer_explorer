@@ -4,3 +4,21 @@ body {
     background-color: #6aa5ff;
     color: black;
 }
+
+h1, .container {
+    text-align: center;
+}
+
+li, ul {
+    display: inline-block;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+}
+
+img {
+    border-radius: 25px;
+    border: solid white 2px;
+    align-content: center;
+}

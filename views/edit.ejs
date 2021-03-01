@@ -10,16 +10,21 @@
     <h1>Edit Your Breweries</h1>
     <div class="container">
         <form action="/beer_explorer/<%= beer.id %>?_method=POST" method="POST">
-            <label for="name">Name</label>
+            <label for="name">Name:</label>
             <input type="text" name="name" id="name" value="<%= beer.id.name %>"/>
-            <label for="location">Location</label>
+            <label for="location">Location:</label>
             <input type="text" name="location" id="location" value="<%= beer.id.location %>"/>
-            <label for="img">Image</label>
+            <label for="img">Image:</label>
             <input type="text" name="img" id="img" value="<%= beer.id.img %>"/>
-            <label for="favorites">Favorites</label>
-            <input type="text" name="favorites" id="favorites" value="<%= beer.id.favorites %>"/>
+            <label for="favorites">Favorites:</label>
+            <input type="text" name="favorites" id="favorites" value="<%= beer.id.favorites %>"/></br>
+            <label for="rating">Untappd Average Rating:</label>
+            <input type="text" name="rating" id="rating" value="<%= beer.id.rating %>"/></br>
 
-            <input type="submit" value="Submit Edited Brewery"/>
+            <input type="submit" value="Submit Edited Brewery"/></br>
+            <nav>
+                <a href="/beer_explorer">Back to Breweries Index</a>
+            </nav>
         </form>
     </div>
 </body>
