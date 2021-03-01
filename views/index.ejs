@@ -8,20 +8,24 @@
 </head>
 <body>
     <h1>North Shore Beer Explorer</h1>
+    <h4>Welcome to the <em>North Shore Beer Explorer!</em> With all of the breweries popping up, we made a list of some just North of Boston (what locals call the "North Shore"). Look around and explore some of our favorite places! Find a place we don't have yet? Add one! Really dislike one of the places? Just delete it out! Have fun!</h4>
+    <nav>
+        <a href="/beer_explorer/new">Add A New Brewery!</a>
+    </nav>
     <div class="container">
         <ul>
             <% for (let i = 0; i < beer.length; i++) { %>
                 <li>
                     <strong>Name:</strong>
                     <%= beer[i].name; %>
-                    </a><br/>
+                    </a><br>
                     <a href="/beer_explorer/<%= beer[i].id; %>">
                         <img src="<%= beer[i].img %>" height="200">
-                    </a><br/>
-                    <strong>^^^CLICK PICTURE TO SEE MORE!^^^</strong><br/>
-                    <strong>Location:</strong> <%= beer[i].location; %><br/>
+                    </a><br>
+                    <strong>^^^CLICK PICTURE TO SEE MORE!^^^</strong><br>
+                    <strong>Location:</strong> <%= beer[i].location; %><br>
 
-                </li></br>
+                </li><br>
             <% } %>
         </ul>
     </div>

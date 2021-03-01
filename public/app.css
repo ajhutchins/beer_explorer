@@ -3,6 +3,7 @@
 body {
     background-color: #6aa5ff;
     color: black;
+    font-family: "Akaya Kanadaka", sans-serif;
 }
 
 h1, .container {
@@ -16,6 +17,10 @@ li, ul {
     text-align: center;
     padding: 10px 10px 10px 10px;
 }
+
+/* ul {
+    display: flex;
+} */
 
 img {
     border-radius: 25px;
