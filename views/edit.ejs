@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Breweries Page</title>
+</head>
+<body>
+    <h1>Edit Your Breweries</h1>
+    <div class="container">
+        <form action="/beer_explorer/<%= beer.id %>?_method=PUT" method="POST">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" value="<%= beer.id.name %>"/>
+            <label for="location">Location</label>
+            <input type="text" name="location" id="location" value="<%= beer.id.location %>"/>
+            <label for="img">Image</label>
+            <input type="text" name="img" id="img" value="<%= beer.id.img %>"/>
+            <label for="favorites">Favorites</label>
+            <input type="text" name="favorites" id="favorites" value="<%= beer.id.favorites %>"/>
+
+            <input type="submit" value="Submit Edited Brewery"/>
+        </form>
+    </div>
+</body>
+</html>

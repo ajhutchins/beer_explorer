@@ -8,16 +8,19 @@ router.get('/seed', (req, res) => {
     Beer.create([
         {
             name: 'Channel Marker Brewing Co.',
+            img: 'https://pbs.twimg.com/profile_images/989522856315899904/tOy0bUGe.jpg',
             location: 'Beverly, MA',
             favorites: 'A Matter of Moons (DIPA), Siren (Sour), Whitecap (N.E. IPA)'
         },
         {
             name: 'Backbeat Brewing Co.',
+            img: '',
             location: 'Beverly, MA',
             favorites: 'Mister Magic (DIPA), Jive (N.E. IPA), ANY Hard Seltzer/Tonic!'
         },
         {
             name: 'Bent Water Brewing Co.',
+            img: '',
             location: 'Lynn, MA',
             favorites: 'Sluice Juice (N.E. IPA), Double Thunder Funk (DIPA), Jolene (Porter)'
         }

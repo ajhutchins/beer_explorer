@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Brewery Page</title>
+</head>
+<body>
+    <h1>Create a New Brewery:</h1>
+    <div class="container">
+    <form action="/beer_explorer" method="POST">
+        Name: <input type="text" name="name" placeholder="Example Brewing Co."/><br/>
+        Location: <input type="text" name="location" placeholder="City, State"/><br/>
+        Image: <input type="text" name="img" placeholder="Add image link!"/><br/>
+        Favorites: <input type="text" name="favorites" placeholder="IPA, DIPA, Porter"/><br/>
+        <input type="submit" name="" value="Create Brewery"/>
+    </form>
+</div>
+<nav>
+    <a href="/beer_explorer">Back to Index</a>
+</nav>
+</body>
+</html>

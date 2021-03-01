@@ -7,5 +7,23 @@
 </head>
 <body>
     <h1>North Shore Beer Explorer</h1>
+    <div class="container">
+        <ul>
+            <% for (let i = 0; i < beer.length; i++) { %>
+                <li>
+                    <strong>Name:</strong>
+                    <a href="/beer_explorer/<%= beer[i].id; %>">
+                        <%= beer[i].name; %>
+                    </a><br/>
+                    <a href="/beer_explorer/<%= beer[i].id; %>">
+                        <img src="<%= beer[i].img %>" height="200">
+                    </a><br/>
+                    <strong>^^^CLICK PICTURE TO SEE MORE!^^^</strong><br/>
+                    <strong>Location:</strong> <%= beer[i].location; %><br/>
+                    <strong>Favorites:</strong> <%= beer[i].favorites; %><br/>
+                </li></br>
+            <% } %>
+        </ul>
+    </div>
 </body>
 </html>
