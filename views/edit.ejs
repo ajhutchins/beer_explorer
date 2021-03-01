@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.css">
     <title>Edit Breweries Page</title>
 </head>
 <body>
     <h1>Edit Your Breweries</h1>
     <div class="container">
-        <form action="/beer_explorer/<%= beer.id %>?_method=PUT" method="POST">
+        <form action="/beer_explorer/<%= beer.id %>?_method=POST" method="POST">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" value="<%= beer.id.name %>"/>
             <label for="location">Location</label>

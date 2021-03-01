@@ -29,6 +29,7 @@ const Beer = require('./models/beer.js');
 // MIDDLEWARE
 app.use(express.urlencoded({extended: true}));
 app.use(methodOverride('_method'));
+app.use(express.static('public'));
 app.use('/beer_explorer', beerController);
 // app.use(
 //     session(

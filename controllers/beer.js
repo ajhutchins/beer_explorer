@@ -8,21 +8,24 @@ router.get('/seed', (req, res) => {
     Beer.create([
         {
             name: 'Channel Marker Brewing Co.',
-            img: 'https://pbs.twimg.com/profile_images/989522856315899904/tOy0bUGe.jpg',
+            img: 'https://beverly.wickedlocal.com/storyimage/WL/20180508/NEWS/180507134/AR/0/AR-180507134.jpg',
             location: 'Beverly, MA',
-            favorites: 'A Matter of Moons (DIPA), Siren (Sour), Whitecap (N.E. IPA)'
+            favorites: 'A Matter of Moons (DIPA), Siren (Sour), Whitecap (N.E. IPA)',
+            rating: '4.11'
         },
         {
             name: 'Backbeat Brewing Co.',
-            img: '',
+            img: 'https://s3.amazonaws.com/toasttab/restaurants/restaurant-35884000000000000/banner_1585324492.jpg',
             location: 'Beverly, MA',
-            favorites: 'Mister Magic (DIPA), Jive (N.E. IPA), ANY Hard Seltzer/Tonic!'
+            favorites: 'Mister Magic (DIPA), Jive (N.E. IPA), ANY Hard Seltzer/Tonic!',
+            rating: '4.04'
         },
         {
             name: 'Bent Water Brewing Co.',
-            img: '',
+            img: 'https://i1.wp.com/absolutebeer.com/wp-content/uploads/2019/12/AB-Breweries-Bent-Water-Brewing-Company-Logo-1.jpg?fit=1200%2C1200&ssl=1',
             location: 'Lynn, MA',
-            favorites: 'Sluice Juice (N.E. IPA), Double Thunder Funk (DIPA), Jolene (Porter)'
+            favorites: 'Sluice Juice (N.E. IPA), Double Thunder Funk (DIPA), Jolene (Porter)',
+            rating: '3.72'
         }
     ], (err, data) => {
         res.redirect('/beer_explorer');

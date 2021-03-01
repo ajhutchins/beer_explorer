@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/app.css">
     <title>Brewery Show Page</title>
 </head>
 <body>
@@ -10,12 +11,14 @@
     <div class="container">
     <li>
         <strong>Name:</strong> <%= beer.name; %><br/>
-        
-        <strong>Location:</strong> <%= beer.location; %><br/>
     
         <img src="<%= beer.img %>" height="200"><br/>
+
+        <strong>Location:</strong> <%= beer.location; %><br/>
         
         <strong>Favorite Beers:</strong> $<%= beer.favorites; %><br/>
+
+        <strong>Untappd Average Rating:</strong> <%= beer.rating; %><br/>
 
         <div class="admin-actions">
             <a href="/beer_explorer/<%=beer.id %>/edit"><button type="button" name="button" class="edit-button">Edit</button></a>
