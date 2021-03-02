@@ -12,7 +12,6 @@ require('dotenv').config();
 // APP CONFIGURATION
 const app = express();
 const port = process.env.port || 3000;
-const DBNAME = process.env.DBNAME;
 
 
 
