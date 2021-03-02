@@ -127,7 +127,7 @@ router.get('/beer_explorer/seed', (req, res) => {
 // ROUTES
 
 // INDEX
-router.get('/https://thawing-spire-75376.herokuapp.com/beer_explorer', (req, res) => {
+router.get('/beer_explorer', (req, res) => {
     console.log(req.session);
 
     Beer.find({}, (error, allBeer) => {
