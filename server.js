@@ -6,7 +6,7 @@ const methodOverride = require('method-override');
 
 
 // IMPORT & CONFIGURE DOTENV
-// require('dotenv').config();
+require('dotenv').config();
 
 
 // APP CONFIGURATION
