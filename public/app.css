@@ -6,7 +6,6 @@ body {
     font-family: "Akaya Kanadaka", sans-serif;
     align-content: center;
     text-shadow: 2px 2px white;
-    font-size: medium;
 }
 
 h1, h4, nav, .container {
@@ -15,10 +14,12 @@ h1, h4, nav, .container {
     font-size: large;
 }
 
+
 li, ul {
     text-decoration: none;
     list-style-type: none;
     text-align: center;
+    font-size: medium;
     /* background-color: white; */
     /* max-width: 300px; */
 }
