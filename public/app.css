@@ -11,6 +11,9 @@ body {
 h1, h4, nav, .container {
     text-align: center;
     text-shadow: 1px 1px white;
+}
+
+h4 {
     font-size: large;
 }
 
