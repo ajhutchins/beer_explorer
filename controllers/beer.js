@@ -4,7 +4,7 @@ const Beer = require('../models/beer.js');
 
 
 // SEED
-router.get('/beer_explorer/seed', (req, res) => {
+router.get('/seed', (req, res) => {
     Beer.create([
         {
             name: 'Channel Marker Brewing Co.',
@@ -127,7 +127,7 @@ router.get('/beer_explorer/seed', (req, res) => {
 // ROUTES
 
 // INDEX
-router.get('/beer_explorer', (req, res) => {
+router.get('/', (req, res) => {
     console.log(req.session);
 
     Beer.find({}, (error, allBeer) => {
@@ -138,19 +138,19 @@ router.get('/beer_explorer', (req, res) => {
 });
 
 // NEW
-router.get('/beer_explorer/new', (req, res) => {
+router.get('/new', (req, res) => {
     res.render('new.ejs');
 });
 
 // CREATE
-router.get('/beer_explorer', (req, res) => {
+router.get('/', (req, res) => {
     Beer.create(req.body, (error, createdBeer) => {
         res.redirect('/beer_explorer');
     });
 });
 
 // SHOW
-router.get('/beer_explorer/:id', (req, res) => {
+router.get('/:id', (req, res) => {
     Beer.findById(req.params.id, (error, foundBeer) => {
         res.render('show.ejs', {
             beer: foundBeer
@@ -160,7 +160,7 @@ router.get('/beer_explorer/:id', (req, res) => {
 
 
 // DELETE
-router.delete('/beer_explorer/:id', (req, res) => {
+router.delete('/:id', (req, res) => {
     Beer.findByIdAndRemove(req.params.id, (error, deletedBeer) => {
         console.log('Deleting brewery: ' + req.params.id);
         console.log(deletedBeer);
@@ -171,7 +171,7 @@ router.delete('/beer_explorer/:id', (req, res) => {
 
 
 // EDIT
-router.get('/beer_explorer/:id/edit', (req, res) => {
+router.get('/:id/edit', (req, res) => {
     Beer.findById(req.params.id, (error, foundBeer) => {
         res.render('edit.ejs', { beer: foundBeer })
     });
@@ -179,7 +179,7 @@ router.get('/beer_explorer/:id/edit', (req, res) => {
 
 
 // UPDATE
-router.get('/beer_explorer/:id', (req, res) => {
+router.get('/:id', (req, res) => {
     Beer.findByIdAndUpdate(req.params.id, req.body, {new: true}, (error, updatedBeer) => {
         res.redirect('/beer_explorer');
     });
