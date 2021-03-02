@@ -26,7 +26,6 @@ li, ul {
     max-width: 300px;
     height: 300px;
     column-count: 3;
-    display: inline-block;
 }
 
 
