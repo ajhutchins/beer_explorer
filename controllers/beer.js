@@ -143,7 +143,7 @@ router.get('/new', (req, res) => {
 });
 
 // CREATE
-router.get('/', (req, res) => {
+router.post('/', (req, res) => {
     Beer.create(req.body, (error, createdBeer) => {
         res.redirect('/beer_explorer');
     });
