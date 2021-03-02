@@ -131,7 +131,7 @@ router.get('/', (req, res) => {
     console.log(req.session);
 
     Beer.find({}, (error, allBeer) => {
-        res.render('beer_explorer/index.ejs', {
+        res.render('index.ejs', {
             beer: allBeer
         });
     });
@@ -139,7 +139,7 @@ router.get('/', (req, res) => {
 
 // NEW
 router.get('/new', (req, res) => {
-    res.render('beer_explorer/new.ejs');
+    res.render('new.ejs');
 });
 
 // CREATE
@@ -152,7 +152,7 @@ router.get('/', (req, res) => {
 // SHOW
 router.get('/:id', (req, res) => {
     Beer.findById(req.params.id, (error, foundBeer) => {
-        res.render('beer_explorer/show.ejs', {
+        res.render('show.ejs', {
             beer: foundBeer
         });
     });
@@ -173,7 +173,7 @@ router.delete('/:id', (req, res) => {
 // EDIT
 router.get('/:id/edit', (req, res) => {
     Beer.findById(req.params.id, (error, foundBeer) => {
-        res.render('beer_explorer/edit.ejs', { 
+        res.render('edit.ejs', { 
             beer: foundBeer,
             method: 'PUT'
         });
