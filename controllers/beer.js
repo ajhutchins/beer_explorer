@@ -159,16 +159,6 @@ router.get('/:id', (req, res) => {
 });
 
 
-// DELETE
-router.delete('/:id', (req, res) => {
-    Beer.findByIdAndRemove(req.params.id, (error, deletedBeer) => {
-        console.log('Deleting brewery: ' + req.params.id);
-        console.log(deletedBeer);
-
-        res.redirect('/beer_explorer');
-    });
-});
-
 
 // EDIT
 router.get('/:id/edit', (req, res) => {
@@ -182,8 +172,19 @@ router.get('/:id/edit', (req, res) => {
 
 
 // UPDATE
-router.get('/:id', (req, res) => {
+router.put('/:id', (req, res) => {
     Beer.findByIdAndUpdate(req.params.id, req.body, {new: true}, (error, updatedBeer) => {
+        res.redirect('/beer_explorer');
+    });
+});
+
+
+// DELETE
+router.delete('/:id', (req, res) => {
+    Beer.findByIdAndRemove(req.params.id, (error, deletedBeer) => {
+        console.log('Deleting brewery: ' + req.params.id);
+        console.log(deletedBeer);
+
         res.redirect('/beer_explorer');
     });
 });
