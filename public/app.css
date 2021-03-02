@@ -4,23 +4,23 @@ body {
     background-color: #6aa5ff;
     color: black;
     font-family: "Akaya Kanadaka", sans-serif;
+    align-content: center;
 }
 
-h1, .container {
+h1, h4, nav, .container {
     text-align: center;
 }
 
 li, ul {
-    display: inline-block;
     text-decoration: none;
     list-style-type: none;
     text-align: center;
-    padding: 10px 10px 10px 10px;
+    /* background-color: white; */
+    /* max-width: 300px; */
+    /* padding: 10px 10px 10px 10px; */
 }
 
-/* ul {
-    display: flex;
-} */
+
 
 img {
     border-radius: 25px;
