@@ -6,11 +6,13 @@ body {
     font-family: "Akaya Kanadaka", sans-serif;
     align-content: center;
     text-shadow: 2px 2px white;
+    font-size: medium;
 }
 
 h1, h4, nav, .container {
     text-align: center;
     text-shadow: 2px 2px white;
+    font-size: large;
 }
 
 li, ul {
