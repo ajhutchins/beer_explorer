@@ -21,7 +21,6 @@ h4 {
 li, ul {
     text-decoration: none;
     list-style-type: none;
-    text-align: center;
     font-size: medium;
     /* background-color: white; */
     max-width: 300px;
