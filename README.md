@@ -21,7 +21,7 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 
 <h4>Add New Brewery Page</h4>
 
-![alt text]()
+![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.19.57%20AM.png)
 
 
 ![alt text]()
