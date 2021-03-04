@@ -32,8 +32,8 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 ![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.20.42%20AM.png)
 ![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.20.50%20AM.png)
 
-<h4>server.js</h4>
+<h4>server.js File:</h4>
 
-![alt text]()
+![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.21.10%20AM.png)
 
 ![alt text]()
