@@ -23,8 +23,9 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 
 ![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.19.57%20AM.png)
 
+<h4>Seeding our Original Breweries:</h4>
 
-![alt text]()
+![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.20.27%20AM.png)
 
 
 ![alt text]()
