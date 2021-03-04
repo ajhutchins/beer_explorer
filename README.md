@@ -30,8 +30,10 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 <h4>7 Routes to Operate the Functionality on the Pages:</h4>
 
 ![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.20.42%20AM.png)
+![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/Screen%20Shot%202021-03-04%20at%2010.20.50%20AM.png)
+
+<h4>server.js</h4>
 
 ![alt text]()
-
 
 ![alt text]()
