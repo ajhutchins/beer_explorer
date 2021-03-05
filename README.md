@@ -12,9 +12,9 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 
 <h4>Wireframing:</h4>
 
-![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Outline.pdf)
+[embed](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Outline.pdf)[/embed]
 
-![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Untappd.pdf)
+[embed](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Untappd.pdf)[/embed]
 
 <h4>Home Page:</h4>
 This is where we list the original breweries from our seed information.<br>
