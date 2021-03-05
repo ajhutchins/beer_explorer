@@ -11,7 +11,9 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 <li>VS Code</li>
 
 <h4>Wireframing:</h4>
+
 ![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Outline.pdf)
+
 ![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Untappd.pdf)
 
 <h4>Home Page:</h4>
