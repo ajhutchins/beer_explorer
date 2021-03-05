@@ -10,6 +10,10 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 <li>Packages: ejs, express, methodOverride</li>
 <li>VS Code</li>
 
+<h4>Wireframing:</h4>
+![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Outline.pdf)
+![alt text](https://github.com/ajhutchins/beer_explorer/blob/main/NS_Beer_Explorer_Untappd.pdf)
+
 <h4>Home Page:</h4>
 This is where we list the original breweries from our seed information.<br>
 <em>(I am mostly happy with how this looks, but would like to play around to get the list items in a 3x4 table instead of a straight column. However, the current method allows for easier readability on smaller screens).</em>
