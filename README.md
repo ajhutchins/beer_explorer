@@ -4,6 +4,12 @@ Visit the Website Here: https://thawing-spire-75376.herokuapp.com/beer_explorer
 
 <strong>The North Shore Beer Explorer</strong> is a website designed for people living, or traveling, to the Boston area.<br> Just north of Boston lies the "North Shore," which has sprung up a plethora of breweries over the recent years. We have listed a few of our favorites on this website and made it possible for users to view each brewery, our favorite libations from each, edit the breweries, or delete them altogether. Ultimately, we hope to be a list of sorts for users to plan their brewery adventure and keep track of their favorite beers & breweries visited.
 
+<h4>Technologies Used</h4>
+<li>Languages: HTML5, CSS3, JavaScript</li>
+<li>Databases & Libraries: MongoDB, Mongoose</li>
+<li>Packages: ejs, express, methodOverride</li>
+<li>VS Code</li>
+
 <h4>Home Page:</h4>
 This is where we list the original breweries from our seed information.<br>
 <em>(I am mostly happy with how this looks, but would like to play around to get the list items in a 3x4 table instead of a straight column. However, the current method allows for easier readability on smaller screens).</em>
